@@ -1,5 +1,10 @@
-let g = 5;
-let o = 2;
-let a = g * o;
+const database = firebase.database().ref();
 
-console.log(a)
+const input = document.querySelector('input');
+const button = document.querySelector('button');
+button.addEventListener('click', handleClick);
+
+function handleClick(){
+  database.push(input.value);
+  input.value = '';
+}

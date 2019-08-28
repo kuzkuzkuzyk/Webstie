@@ -1,8 +1,31 @@
 <html>
   <head>
     <link rel="stylesheet"href="style.css">
-<script src="script.js"></script>
+
     <title> Site Title </title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCcEuFkR4Fo7Fwp-QrZ6LQXuOLo2fXB_zs",
+    authDomain: "kuz-kuz.firebaseapp.com",
+    databaseURL: "https://kuz-kuz.firebaseio.com",
+    projectId: "kuz-kuz",
+    storageBucket: "",
+    messagingSenderId: "238703254597",
+    appId: "1:238703254597:web:f3349538c8d8bd10"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="script.js" defer></script>
   </head>
   <body>
     <h1>DOGS</h1>
@@ -14,18 +37,19 @@
 
   <h7>Delightful</h7>
   <br>
-  <h7>Obedient</h7>
+  <h8>Obedient</h8>
   <br>
-  <h7>Gorgeous</h7>
+  <h9>Gorgeous</h9>
   <br>
-  <h7>Spectacular</h7>
-
+  <h10>Spectacular</h10>
+  <input type="text" input="" value="">
+  <button type="button" name="button">Retrieve</button>
     <img src="https://parade.com/wp-content/uploads/2018/03/golden-puppy-life-national-geographic-ftr-1.jpg"></img>
 
-    <br />
-
+  <br/>
 
 <a href="https://www.dogpile.com/">For more information about dogs click here</a>
-    This is a site.
+<br>
+<a href="https://www.crazygames.com/t/dog">If you want to have fun with dogs click here</a>
   </body>
 </html>

@@ -1,6 +1,7 @@
 h1 {
 font-size: 300px;
-color: #e37676;
+color: #de2a2a;
+
 }
 h2 {
 color: #eb8f44
@@ -19,5 +20,27 @@ color: #ebd544
 }
 h7 {
   font-size: 100px;
-  color:
+  color: #65f04f
+}
+h8 {
+  font-size: 100px;
+  color: #4ff0db
+}
+h9 {
+  font-size: 100px;
+  color: #5ab6e0
+}
+h10 {
+  font-size: 100px;
+  color:#ba5ae0
+}
+body {
+  background-color: #fae1f1
+}
+html {
+  border-radius: 25px;
+  background: #fae1f1;
+  padding: 20px;
+  width: 1000px;
+  height: 500px;
 }
