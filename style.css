@@ -1,38 +1,47 @@
 h1 {
 font-size: 300px;
 color: #de2a2a;
-
+font-family: 'Chilanka', cursive;
 }
 h2 {
-color: #eb8f44
+color: #eb8f44;
+font-family: 'Chilanka', cursive;
 }
 h3 {
-color: #eb8f44
+color: #eb8f44;
+font-family: 'Chilanka', cursive;
 }
 h4 {
-color: #eb8f44
+color: #eb8f44;
+font-family: 'Chilanka', cursive;
 }
 h5 {
-color: #ebd544
+color: #ebd544;
+font-family: 'Chilanka', cursive;
 }
 h6 {
-color: #ebd544
+color: #ebd544;
+font-family: 'Chilanka', cursive;
 }
 h7 {
   font-size: 100px;
-  color: #65f04f
+  color: #65f04f;
+  font-family: 'Chilanka', cursive;
 }
 h8 {
   font-size: 100px;
-  color: #4ff0db
+  color: #4ff0db;
+  font-family: 'Chilanka', cursive;
 }
 h9 {
   font-size: 100px;
-  color: #5ab6e0
+  color: #5ab6e0;
+  font-family: 'Chilanka', cursive;
 }
 h10 {
   font-size: 100px;
-  color:#ba5ae0
+  color:#ba5ae0;
+  font-family: 'Chilanka', cursive;
 }
 body {
   background-color: #fae1f1
@@ -43,4 +52,17 @@ html {
   padding: 20px;
   width: 1000px;
   height: 500px;
+}
+button {
+  font-family: 'Chilanka', cursive;
+  color: #6bf2d7;
+}
+
+.messages{
+  height: 150px;
+  font-family: 'Chilanka', cursive;
+  color: #f26ba1;
+  overflow: auto;
+  border-radius: 7px;
+  width: 200px;
 }
